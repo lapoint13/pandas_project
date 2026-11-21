@@ -24,9 +24,12 @@ Project/
     processed/
       pms_clean.csv                clean PMS, written by pms_cleaning.ipynb
       crm_clean.csv                clean CRM, written by crm_cleaning.ipynb
+      merged_clean.csv             merged and checked table, written by merge.ipynb
   cleaning/
     pms_cleaning.ipynb             Phase A of the PMS: Load, Assess, Clean, Export
     crm_cleaning.ipynb             Phase A of the CRM: Load, Assess, Clean, Export
+  merge/
+    merge.ipynb                    Phase B: Merge, checks between the files, recomputed values, Export
 ```
 
 The files in `data/raw/` are never modified: each notebook reads them, works on a copy and saves the result in `data/processed/`.
@@ -39,14 +42,16 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Then open a notebook and use **Run All**. The notebooks in `Project/cleaning/` read the data with paths relative to their own folder, for example `pd.read_excel("../data/raw/hotel_reservations_pms.xlsx", sheet_name="bookings")`. Order: first the two cleaning notebooks, then the merge notebook, which reads the files in `data/processed/`.
+Then open a notebook and use **Run All**. Every notebook reads the data with paths relative to its own folder, for example `pd.read_excel("../data/raw/hotel_reservations_pms.xlsx", sheet_name="bookings")`. Order:
+1. `cleaning/pms_cleaning.ipynb` and `cleaning/crm_cleaning.ipynb` (any order);
+2. `merge/merge.ipynb`, which reads the two files in `data/processed/`.
 
 ## Phases
 
 - **Phase A.** Each file is cleaned on its own:
   - PMS: Jacopo, `pms_cleaning.ipynb`.
   - CRM: Alessandro, `crm_cleaning.ipynb`.
-- **Phase B.** Merge of the two files on the booking code (`booking_id` in the PMS, `BookingRef` in the CRM), then consistency checks between the files, Describe and Analyse.
+- **Phase B.** Merge of the two files on the booking code (`booking_id` in the PMS, `BookingRef` in the CRM), then consistency checks between the files and recomputed values: `merge.ipynb`. Describe and Analyse come next.
 
 ## Cleaning rules (for both files)
 
@@ -67,15 +72,16 @@ Flags:
 
 | Flag | Rows | Meaning |
 |---|---|---|
-| `meal_recoded` | 236 | `Undefined` recoded to `SC` (no meal, as the original paper of the dataset says) |
-| `adr_invalid` | 71 | adr negative or above 1,000: set to NaN, to be recomputed from the CRM in Phase B |
+| `meal_undefined` | 236 | `Undefined` is not a meal plan of the `info` dictionary: set to NaN (same rule as `Undefined` in the CRM). All in the Resort Hotel |
+| `adr_invalid` | 70 | adr negative or above 1,000: set to NaN, to be recomputed from the CRM in Phase B |
+| `adr_outlier` | 1 | adr above 1,000 confirmed by the CRM (BK323523, 5,400 euro for 1 night): kept, to be excluded from price analyses |
 | `adr_zero` | 377 | adr = 0, confirmed by the CRM too; to be excluded from price analyses |
 | `week_nights_missing` | 35 | `stays_in_week_nights` = -1, a code for "unknown": set to NaN |
 | `zero_nights` | 147 | 0-night stays, kept |
 | `no_guests` | 31 | 0 adults, 0 children, 0 babies, kept |
-| `children_missing` | 809 | missing children filled with 0 (ESTIMATE) |
+| `children_missing` | 809 | children missing, all in the City Hotel: left NaN. No other column or file can check a fill, and the mode (0) would remove every child from these rows |
 
-NaN left: adr 191, `stays_in_week_nights` 35, meal 483.
+NaN left: adr 190, `stays_in_week_nights` 35, meal 719 (483 missing + 236 `Undefined`), children 809.
 
 ## Phase A result: CRM
 
@@ -99,15 +105,33 @@ Flags:
 
 NaN left: `n_adults` 244, `total_price` 490, `lead_time_days` 25, `guest_country` 114, `market_segment` 2, `distribution_channel` 3 (plus `agent_id` and `company_id`, empty when there is no agent or company).
 
-## To do in Phase B
+## Phase B result: merge
 
-The details are in the last cell of `pms_cleaning.ipynb`, "Notes for Phase B". In short:
-- check that the shared columns of the two files agree;
-- recompute adr from `total_price / nights`;
-- rebuild the week nights;
-- compare adults above 10 with `n_adults` of the CRM;
-- decide on the 88 `date_inconsistent` rows using the PMS arrival date;
-- check `total_price` = 0 (381 rows) and `n_adults` = 0 (79 rows) against the PMS.
+`pd.merge(pms, crm, on="booking_id", how="outer")`: **25,000 rows** (23,750 in both files, 500 only in the PMS, 750 only in the CRM). The columns `in_pms` and `in_crm` say where each row comes from.
+
+1. **Shared columns in one column.** The PMS is the reference; the CRM fills it where the PMS is missing: `hotel` ← `property`, `arrival_date` ← `checkin_date`, `adults` ← `n_adults`, `is_canceled` ← `reservation_status`.
+2. **Conflicts between the files.** A value is changed only when a third column (usually the price) proves which file is right; otherwise it is kept and flagged.
+3. **Recomputed values** with `total_price = adr × nights`, which holds on 22,436 of 22,708 checkable rows.
+4. **Export** to `data/processed/merged_clean.csv`: 25,000 rows × 65 columns. `property` and `checkin_date` are dropped as duplicates; `n_adults` stays, because of the unresolved adults conflicts.
+
+Flags:
+
+| Flag | Rows | Meaning |
+|---|---|---|
+| `arrival_conflict` | 45 | different arrival date; the CRM dates confirm the PMS in every testable row. PMS kept |
+| `adults_from_crm` | 19 | PMS above 10 adults (20-55), CRM 1-2, price of 1-2 people: CRM value taken |
+| `adults_conflict` | 56 | one adult of difference, no evidence either way: PMS kept, CRM in `n_adults` |
+| `adults_unverified` | 2 | more than 10 adults in the PMS, no CRM value to check |
+| `status_from_pms` | 50 | `Canceled` in the CRM but status date = departure day: changed to `Check-Out` |
+| `nights_conflict` | 35 | CRM dates disagree with the PMS nights; the price confirms the PMS. PMS kept |
+| `price_inflated` | 272 | CRM price always 15-60% higher than adr × nights, while the PMS adr matches the typical price of the room: price recomputed |
+| `week_nights_from_crm` | 18 | week nights rebuilt from the CRM dates (check-outs) |
+| `week_nights_estimated` | 15 | week nights rebuilt from `total_price / adr` (ESTIMATE) |
+| `adr_from_crm` | 177 | missing adr recomputed as `total_price / nights` |
+| `adr_estimated` | 3 | missing adr of 0-night stays set to 0 (ESTIMATE) |
+| `price_from_pms` | 466 | missing `total_price` recomputed as adr × nights |
+
+Still missing on PMS rows: adr 10, `stays_in_week_nights` 2 (no source in either file).
 
 ## How we collaborate (also for AI assistants)
 
