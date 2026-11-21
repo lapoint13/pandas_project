@@ -112,7 +112,8 @@ NaN left: `n_adults` 244, `total_price` 490, `lead_time_days` 25, `guest_country
 1. **Shared columns in one column.** The PMS is the reference; the CRM fills it where the PMS is missing: `hotel` ← `property`, `arrival_date` ← `checkin_date`, `adults` ← `n_adults`, `is_canceled` ← `reservation_status`.
 2. **Conflicts between the files.** A value is changed only when a third column (usually the price) proves which file is right; otherwise it is kept and flagged.
 3. **Recomputed values** with `total_price = adr × nights`, which holds on 22,436 of 22,708 checkable rows.
-4. **Export** to `data/processed/merged_clean.csv`: 25,000 rows × 65 columns. `property` and `checkin_date` are dropped as duplicates; `n_adults` stays, because of the unresolved adults conflicts.
+4. **Other checks** that change no value: weekend nights, repeated guests, repeated status dates (see "Known limits").
+5. **Export** to `data/processed/merged_clean.csv`: 25,000 rows × 67 columns. `property` and `checkin_date` are dropped as duplicates; `n_adults` stays, because of the unresolved adults conflicts.
 
 Flags:
 
@@ -121,17 +122,23 @@ Flags:
 | `arrival_conflict` | 45 | different arrival date; the CRM dates confirm the PMS in every testable row. PMS kept |
 | `adults_from_crm` | 19 | PMS above 10 adults (20-55), CRM 1-2, price of 1-2 people: CRM value taken |
 | `adults_conflict` | 56 | one adult of difference, no evidence either way: PMS kept, CRM in `n_adults` |
-| `adults_unverified` | 2 | more than 10 adults in the PMS, no CRM value to check |
+| `adults_unverified` | 2 | more than 10 adults in the PMS, no CRM value to check. adr > 0 (the profile of the 19 errors): set to NaN (1 row); adr 0 (the profile of the real groups): kept (1 row) |
 | `status_from_pms` | 50 | `Canceled` in the CRM but status date = departure day: changed to `Check-Out` |
 | `nights_conflict` | 35 | CRM dates disagree with the PMS nights; the price confirms the PMS. PMS kept |
+| `status_date_from_pms` | 35 | the same rows: the CRM status date (often before the arrival, even before the booking) becomes arrival + nights |
 | `price_inflated` | 272 | CRM price always 15-60% higher than adr × nights, while the PMS adr matches the typical price of the room: price recomputed |
 | `week_nights_from_crm` | 18 | week nights rebuilt from the CRM dates (check-outs) |
 | `week_nights_estimated` | 15 | week nights rebuilt from `total_price / adr` (ESTIMATE) |
 | `adr_from_crm` | 177 | missing adr recomputed as `total_price / nights` |
 | `adr_estimated` | 3 | missing adr of 0-night stays set to 0 (ESTIMATE) |
 | `price_from_pms` | 466 | missing `total_price` recomputed as adr × nights |
+| `repeated_inconsistent` | 266 | `is_repeated_guest` contradicts the history (not repeated with past stays, or repeated with no history). Values unchanged |
 
 Still missing on PMS rows: adr 10, `stays_in_week_nights` 2 (no source in either file).
+
+Known limits:
+- **Weekend nights.** `stays_in_weekend_nights` matches the nights of Saturday and Sunday in only 12,078 of 24,248 rows, but the nights starting on Sunday and Monday in all of them: the dates and the weekend count are one day apart. No column shows which is right, so nothing is changed and the analysis draws no conclusions by day of the week.
+- **Repeated status dates** (e.g. 151 on 2015-01-01) are cancelled group blocks, not a code for "unknown".
 
 ## How we collaborate (also for AI assistants)
 
