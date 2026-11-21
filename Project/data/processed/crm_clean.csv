@@ -947,7 +947,7 @@ BK306609,City Hotel,2016-10-13,2.0,461.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0
 BK306211,City Hotel,2016-02-03,1.0,4.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2016-02-06,243.0,False,False,False,False,False,False,False
 BK316814,Resort Hotel,2016-02-24,2.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2016-02-25,45.0,False,False,False,False,False,False,False
 BK314341,City Hotel,2017-07-01,3.0,90.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-07-05,760.0,False,False,False,False,False,False,False
-BK311295,City Hotel,2017-08-03,2.0,2.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,509.0,,0,Canceled,2017-08-04,166.0,False,False,False,False,False,False,False
+BK311295,City Hotel,2017-08-03,2.0,2.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,509.0,,0,Canceled,2017-08-04,166.0,False,False,False,False,False,False,True
 BK309659,Resort Hotel,2016-04-07,2.0,85.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,67.0,,0,Canceled,2016-01-18,192.0,False,False,False,False,False,False,False
 BK306235,Resort Hotel,2016-09-10,2.0,58.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2016-09-17,910.0,False,False,False,False,False,False,False
 BK306701,City Hotel,2015-08-13,2.0,300.0,PRT,Groups,TA/TO,Transient-Party,1,1,0,1.0,,0,Canceled,2014-10-17,125.6,False,False,False,False,False,False,False
@@ -2156,7 +2156,7 @@ BK302310,City Hotel,2016-04-26,1.0,88.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,
 BK324126,City Hotel,2017-04-06,1.0,69.0,PRT,Corporate,Corporate,Transient,0,0,0,,197.0,0,Canceled,2017-01-27,255.0,False,False,False,False,False,False,False
 BK302540,Resort Hotel,2017-02-13,2.0,133.0,NLD,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-02-14,37.8,False,False,False,False,False,False,False
 BK315389,City Hotel,2015-08-27,1.0,1.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2015-08-26,160.0,False,False,False,False,False,False,False
-BK302353,Resort Hotel,2016-05-14,2.0,129.0,IRL,Offline TA/TO,TA/TO,Transient,0,0,0,8.0,,0,Canceled,2016-05-21,443.52,False,False,False,False,False,False,False
+BK302353,Resort Hotel,2016-05-14,2.0,129.0,IRL,Offline TA/TO,TA/TO,Transient,0,0,0,8.0,,0,Canceled,2016-05-21,443.52,False,False,False,False,False,False,True
 BK309718,City Hotel,2017-02-22,1.0,48.0,ESP,Groups,TA/TO,Transient-Party,0,0,0,,,0,Check-Out,2017-02-24,130.0,False,False,False,False,False,False,False
 BK304705,City Hotel,2016-04-25,,97.0,BEL,Online TA,TA/TO,Transient-Party,0,0,0,9.0,,0,Check-Out,2016-04-28,256.5,False,False,False,False,False,False,False
 BK320510,City Hotel,2015-10-17,2.0,43.0,PRT,Online TA,TA/TO,Contract,0,0,0,9.0,,0,Check-Out,2015-10-17,0.0,False,False,False,False,False,False,False
@@ -2756,7 +2756,7 @@ BK323213,City Hotel,2016-07-06,1.0,245.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0
 BK323759,City Hotel,2016-09-18,1.0,4.0,PRT,Complementary,Direct,Transient,0,0,0,,45.0,0,Check-Out,2016-09-23,0.0,False,False,False,False,False,False,False
 BK312855,Resort Hotel,2017-01-08,1.0,0.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-01-12,172.0,False,False,False,False,False,False,False
 BK321066,City Hotel,2017-07-18,2.0,99.0,BEL,Offline TA/TO,TA/TO,Transient,0,0,0,394.0,,0,Check-Out,2017-07-23,400.5,False,False,False,False,False,False,False
-BK316561,City Hotel,2017-03-16,2.0,187.0,DEU,Online TA,TA/TO,Transient,0,0,0,8.0,,0,Canceled,2017-03-20,353.6,False,False,False,False,False,False,False
+BK316561,City Hotel,2017-03-16,2.0,187.0,DEU,Online TA,TA/TO,Transient,0,0,0,8.0,,0,Canceled,2017-03-20,353.6,False,False,False,False,False,False,True
 BK308264,City Hotel,2015-09-03,1.0,3.0,AGO,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2015-09-05,192.0,False,False,False,False,False,False,False
 BK318751,City Hotel,2016-09-16,2.0,88.0,ISR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-09-18,316.8,False,False,False,False,False,False,False
 BK320980,City Hotel,2016-07-30,2.0,301.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Check-Out,2016-08-01,230.0,False,False,False,False,False,False,False
@@ -2809,7 +2809,7 @@ BK321553,Resort Hotel,2015-09-24,2.0,174.0,GBR,Offline TA/TO,TA/TO,Contract,0,0,
 BK319116,City Hotel,2017-01-13,2.0,20.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-12-28,248.64,False,False,False,False,False,False,False
 BK300134,Resort Hotel,2016-09-07,1.0,238.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0,Canceled,2016-02-09,267.0,False,False,False,False,False,False,False
 BK323064,City Hotel,2017-05-26,3.0,22.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-05-27,230.0,False,False,False,False,False,False,False
-BK311184,City Hotel,2017-06-30,2.0,167.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-07-02,224.1,False,False,False,False,False,False,False
+BK311184,City Hotel,2017-06-30,2.0,167.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-07-02,224.1,False,False,False,False,False,False,True
 BK309675,Resort Hotel,2017-06-26,2.0,251.0,CN,Groups,TA/TO,Transient-Party,0,0,0,96.0,,0,Check-Out,2017-06-30,432.0,False,False,False,True,False,False,False
 BK305817,City Hotel,2015-10-09,2.0,66.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,21.0,,0,Canceled,2015-08-25,225.0,False,False,False,False,False,False,False
 BK322237,City Hotel,2016-04-21,2.0,288.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0,Canceled,2015-10-21,124.0,False,False,False,False,False,False,False
@@ -3297,7 +3297,7 @@ BK308289,City Hotel,2015-09-11,1.0,48.0,PRT,Offline TA/TO,TA/TO,Transient-Party,
 BK317050,City Hotel,2017-03-14,2.0,0.0,IRL,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2017-03-15,108.0,False,False,False,False,False,False,False
 BK301682,City Hotel,2017-01-03,2.0,1.0,FRA,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2017-01-05,196.0,False,False,False,False,False,False,False
 BK320418,City Hotel,2016-10-21,2.0,192.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,29.0,,0,Canceled,2016-09-06,190.0,False,False,False,False,False,False,False
-BK315390,City Hotel,2016-10-23,2.0,386.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Canceled,2016-10-25,230.0,False,False,False,False,False,False,False
+BK315390,City Hotel,2016-10-23,2.0,386.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Canceled,2016-10-25,230.0,False,False,False,False,False,False,True
 BK314416,City Hotel,2017-08-26,2.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2017-08-27,200.0,False,False,False,False,False,False,False
 BK317729,City Hotel,2017-04-13,2.0,102.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-03-20,810.0,False,False,False,False,False,False,False
 BK309728,City Hotel,2017-03-19,2.0,28.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-03-23,367.2,False,False,False,False,False,False,False
@@ -3307,7 +3307,7 @@ BK304295,City Hotel,2016-11-10,1.0,10.0,PRT,Online TA,TA/TO,Transient,0,0,0,83.0
 BK303733,City Hotel,2016-06-09,2.0,135.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-02-23,348.3,False,False,False,False,False,False,False
 BK323422,City Hotel,2017-07-28,2.0,71.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-07-31,687.99,False,False,False,False,False,False,False
 BK313333,City Hotel,2016-03-24,3.0,3.0,ESP,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2016-03-27,734.01,False,False,False,False,False,False,False
-BK304628,Resort Hotel,2016-11-26,2.0,47.0,PRT,Online TA,TA/TO,Transient-Party,0,0,0,240.0,,0,Canceled,2016-11-27,73.3,False,False,False,False,False,False,False
+BK304628,Resort Hotel,2016-11-26,2.0,47.0,PRT,Online TA,TA/TO,Transient-Party,0,0,0,240.0,,0,Canceled,2016-11-27,73.3,False,False,False,False,False,False,True
 BK311179,City Hotel,2015-08-14,2.0,39.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Check-Out,2015-08-16,218.0,False,False,False,False,False,False,False
 BK311082,City Hotel,2017-03-22,2.0,115.0,HUN,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-03-27,374.0,False,False,False,False,False,False,False
 BK318576,City Hotel,2016-12-08,2.0,23.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-12-11,326.01,False,False,False,False,False,False,False
@@ -3644,7 +3644,7 @@ BK312497,City Hotel,2016-05-29,2.0,99.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,
 BK305487,Resort Hotel,2016-10-25,3.0,138.0,FRA,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-08-18,1455.03,False,False,False,False,False,False,False
 BK310593,City Hotel,2016-06-22,1.0,19.0,PRT,Corporate,Corporate,Transient-Party,0,0,0,215.0,,0,Check-Out,2016-06-24,180.0,False,False,False,False,False,False,False
 BK324505,City Hotel,2016-05-21,1.0,39.0,BRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-04-12,121.5,False,False,False,False,False,False,False
-BK316874,City Hotel,2016-12-07,2.0,40.0,AUT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-12-11,387.6,False,False,False,False,False,False,False
+BK316874,City Hotel,2016-12-07,2.0,40.0,AUT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-12-11,387.6,False,False,False,False,False,False,True
 BK304276,Resort Hotel,2017-01-16,1.0,40.0,PRT,Groups,Direct,Transient-Party,0,0,0,,,0,Check-Out,2017-01-19,165.0,False,False,False,False,False,False,False
 BK304466,Resort Hotel,2017-08-14,2.0,40.0,AUS,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-08-18,920.0,False,False,False,False,False,False,False
 BK310665,City Hotel,2016-04-22,2.0,6.0,PRT,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Check-Out,2016-04-27,457.2,False,False,False,False,False,False,False
@@ -3684,7 +3684,7 @@ BK317678,Resort Hotel,2017-04-15,2.0,60.0,DEU,Online TA,TA/TO,Transient,0,0,0,24
 BK323273,City Hotel,2016-02-10,1.0,2.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-02-12,160.0,False,False,False,False,False,False,False
 BK309840,Resort Hotel,2017-02-25,2.0,16.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2017-02-10,138.0,False,False,False,False,False,False,False
 BK319605,City Hotel,2016-04-28,2.0,24.0,DEU,Offline TA/TO,TA/TO,Transient,0,0,0,16.0,,0,Check-Out,2016-05-07,,False,False,False,False,False,False,False
-BK307114,City Hotel,2017-05-26,2.0,98.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-05-27,126.0,False,False,False,False,False,False,False
+BK307114,City Hotel,2017-05-26,2.0,98.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-05-27,126.0,False,False,False,False,False,False,True
 BK307707,City Hotel,2017-04-26,2.0,110.0,NOR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-01-06,504.0,False,False,False,False,False,False,False
 BK304836,City Hotel,2016-07-06,1.0,245.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,19.0,,0,Canceled,2016-02-23,660.0,False,False,False,False,False,False,False
 BK309189,City Hotel,2016-09-19,2.0,133.0,JPN,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-09-24,780.75,False,False,False,False,False,False,False
@@ -3753,7 +3753,7 @@ BK316705,City Hotel,2016-01-20,2.0,41.0,IRL,Online TA,TA/TO,Transient,0,0,0,8.0,
 BK315775,Resort Hotel,2015-07-04,2.0,149.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2015-07-11,784.0,False,False,False,False,False,False,False
 BK313231,Resort Hotel,2017-07-23,2.0,124.0,GBR,Offline TA/TO,TA/TO,Contract,0,0,0,40.0,,0,Check-Out,2017-08-02,1588.5,False,False,False,False,False,False,False
 BK300641,City Hotel,2017-05-06,2.0,407.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,229.0,,0,Canceled,2016-04-17,270.0,False,False,False,False,False,False,False
-BK323989,City Hotel,2017-05-22,2.0,190.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-05-25,430.2,False,False,False,False,False,False,False
+BK323989,City Hotel,2017-05-22,2.0,190.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-05-25,430.2,False,False,False,False,False,False,True
 BK316304,City Hotel,2016-09-09,2.0,198.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,3.0,,0,Canceled,2016-07-12,270.0,False,False,False,False,False,False,False
 BK320028,City Hotel,2015-07-15,2.0,271.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,1.0,,0,Check-Out,2015-07-17,124.0,False,False,False,False,False,False,False
 BK303051,Resort Hotel,2017-03-27,2.0,103.0,PRT,Groups,Corporate,Transient,0,0,0,495.0,,0,Canceled,2016-12-23,130.0,False,False,False,False,False,False,False
@@ -4681,7 +4681,7 @@ BK312116,City Hotel,2016-03-16,2.0,41.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,
 BK307749,Resort Hotel,2016-08-19,2.0,103.0,GBR,Online TA,TA/TO,Transient,0,0,0,241.0,,0,Check-Out,2016-08-22,568.26,False,False,False,False,False,False,False
 BK309071,City Hotel,2016-04-28,1.0,295.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0,Canceled,2015-10-21,59.0,False,False,False,False,False,False,False
 BK324416,Resort Hotel,2017-03-01,2.0,181.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,440.0,,0,Canceled,2016-12-07,1465.0,False,False,False,False,False,False,False
-BK322993,City Hotel,2016-11-16,2.0,21.0,GBR,Online TA,TA/TO,Transient,0,0,0,89.0,,0,Canceled,2016-11-19,223.44,False,False,False,False,False,False,False
+BK322993,City Hotel,2016-11-16,2.0,21.0,GBR,Online TA,TA/TO,Transient,0,0,0,89.0,,0,Canceled,2016-11-19,223.44,False,False,False,False,False,False,True
 BK316533,Resort Hotel,2016-08-12,2.0,291.0,PRT,Online TA,TA/TO,Transient,0,0,0,242.0,,0,Canceled,2016-05-26,1562.4,False,False,False,False,False,False,False
 BK320227,Resort Hotel,2016-02-26,2.0,74.0,PRT,Groups,TA/TO,Transient,0,0,0,68.0,,0,Canceled,2016-01-21,210.0,False,False,False,False,False,False,False
 BK323647,City Hotel,2015-09-25,2.0,87.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0,Canceled,2015-09-09,850.0,False,False,False,False,False,False,False
@@ -4698,7 +4698,7 @@ BK318876,City Hotel,2017-06-26,2.0,137.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0
 BK318396,Resort Hotel,2017-07-27,2.0,199.0,PRT,Online TA,TA/TO,Transient,0,0,0,242.0,,0,Canceled,2017-06-19,1102.5,False,False,False,False,False,False,False
 BK300786,City Hotel,2016-06-14,2.0,92.0,IRL,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2016-06-21,844.06,False,False,False,False,False,False,False
 BK307358,Resort Hotel,2016-08-20,2.0,48.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2016-08-22,412.0,False,False,False,False,False,False,False
-BK317903,City Hotel,2015-10-06,2.0,25.0,DEU,Online TA,TA/TO,Contract,0,0,0,9.0,,0,Canceled,2015-10-10,449.0,False,False,False,False,False,False,False
+BK317903,City Hotel,2015-10-06,2.0,25.0,DEU,Online TA,TA/TO,Contract,0,0,0,9.0,,0,Canceled,2015-10-10,449.0,False,False,False,False,False,False,True
 BK323277,Resort Hotel,2016-03-29,2.0,36.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-03-29,438.0,False,False,False,False,False,False,False
 BK316316,Resort Hotel,2017-03-09,2.0,3.0,FRA,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-03-11,130.0,False,False,False,False,False,False,False
 BK318789,City Hotel,2017-07-06,2.0,158.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-07-10,464.4,False,False,False,False,False,False,False
@@ -5250,7 +5250,7 @@ BK305871,City Hotel,2016-09-30,2.0,182.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0
 BK305863,Resort Hotel,2017-04-18,2.0,12.0,PRT,Online TA,TA/TO,Transient-Party,0,0,0,5.0,,0,Check-Out,2017-04-19,96.0,False,False,False,False,False,False,False
 BK311955,City Hotel,2016-09-22,2.0,440.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0,Canceled,2015-10-21,124.0,False,False,False,False,False,False,False
 BK306588,Resort Hotel,2017-04-04,1.0,4.0,PRT,Online TA,TA/TO,Transient,1,0,2,5.0,,0,Check-Out,2017-04-05,75.6,False,False,False,False,False,False,False
-BK324734,City Hotel,2015-09-05,1.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2015-09-06,114.0,False,False,False,False,False,False,False
+BK324734,City Hotel,2015-09-05,1.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2015-09-06,114.0,False,False,False,False,False,False,True
 BK317875,City Hotel,2016-09-02,1.0,120.0,PRT,Groups,TA/TO,Transient,0,0,0,37.0,,0,Canceled,2016-06-14,345.0,False,False,False,False,False,False,False
 BK306884,Resort Hotel,2017-08-31,2.0,23.0,RUS,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-07-20,217.0,False,False,False,False,False,False,True
 BK303249,City Hotel,2017-08-20,2.0,128.0,HUN,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-08-22,290.0,False,False,False,False,False,False,False
@@ -5407,7 +5407,7 @@ BK304250,City Hotel,2017-06-17,2.0,448.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,
 BK320266,City Hotel,2016-04-07,1.0,52.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-03-28,99.9,False,False,False,False,False,False,False
 BK322628,City Hotel,2017-01-11,1.0,233.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-01-14,229.5,False,False,False,False,False,False,False
 BK306204,City Hotel,2017-03-18,2.0,7.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-03-21,384.0,False,False,False,False,False,False,False
-BK305749,Resort Hotel,2017-05-04,2.0,202.0,BRA,Groups,TA/TO,Transient-Party,0,0,0,251.0,,0,Canceled,2017-05-05,62.0,False,False,False,False,False,False,False
+BK305749,Resort Hotel,2017-05-04,2.0,202.0,BRA,Groups,TA/TO,Transient-Party,0,0,0,251.0,,0,Canceled,2017-05-05,62.0,False,False,False,False,False,False,True
 BK316719,City Hotel,2015-09-09,2.0,86.0,FRA,Groups,Corporate,Transient-Party,0,0,0,,,0,Canceled,2015-06-30,220.0,False,False,False,False,False,False,False
 BK322093,City Hotel,2017-04-13,2.0,96.0,URY,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-04-15,288.0,False,False,False,False,False,False,False
 BK323857,City Hotel,2016-02-17,2.0,12.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-02-18,90.0,False,False,False,False,False,False,False
@@ -5708,7 +5708,7 @@ BK315979,Resort Hotel,2015-09-09,2.0,78.0,PRT,Online TA,TA/TO,Transient,0,0,0,24
 BK302844,City Hotel,2016-01-16,2.0,4.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-01-17,67.5,False,False,False,False,False,False,False
 BK318800,Resort Hotel,2017-06-14,2.0,287.0,CZE,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-06-16,242.2,False,False,False,False,False,False,False
 BK310577,City Hotel,2017-02-22,1.0,48.0,ESP,Groups,TA/TO,Transient-Party,0,0,0,,,0,Check-Out,2017-02-24,130.0,False,False,False,False,False,False,False
-BK313531,Resort Hotel,2015-09-25,2.0,98.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2015-10-03,898.94,False,False,False,False,False,False,False
+BK313531,Resort Hotel,2015-09-25,2.0,98.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2015-10-03,898.94,False,False,False,False,False,False,True
 BK310253,City Hotel,2016-10-06,2.0,85.0,CN,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Check-Out,2016-10-10,340.0,False,False,False,True,False,False,False
 BK308294,City Hotel,2017-08-02,2.0,104.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-04-23,500.0,False,False,False,False,False,False,False
 BK304263,City Hotel,2017-06-29,2.0,151.0,DEU,Online TA,TA/TO,Transient-Party,0,0,0,9.0,,0,Check-Out,2017-07-02,368.1,False,False,False,False,False,False,False
@@ -5887,7 +5887,7 @@ BK318729,City Hotel,2016-10-05,2.0,25.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,
 BK304650,City Hotel,2017-07-02,2.0,343.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-07-25,356.4,False,False,False,False,False,False,False
 BK309120,City Hotel,2016-10-14,1.0,359.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,21.0,,0,Check-Out,2016-10-19,350.0,False,False,False,False,False,False,False
 BK307678,City Hotel,2016-04-20,2.0,0.0,PRT,Complementary,Direct,Transient,1,0,2,,45.0,0,Check-Out,2016-04-21,0.0,False,False,False,False,False,False,False
-BK301359,City Hotel,2017-07-15,2.0,160.0,BEL,Online TA,TA/TO,Transient-Party,0,0,0,9.0,,0,Canceled,2017-07-18,267.3,False,False,False,False,False,False,False
+BK301359,City Hotel,2017-07-15,2.0,160.0,BEL,Online TA,TA/TO,Transient-Party,0,0,0,9.0,,0,Canceled,2017-07-18,267.3,False,False,False,False,False,False,True
 BK306972,City Hotel,2017-06-18,2.0,125.0,ISR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-05-13,234.0,False,False,False,False,False,False,False
 BK303444,City Hotel,2017-08-13,2.0,140.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-03-29,883.5,False,False,False,False,False,False,False
 BK304770,City Hotel,2017-04-14,2.0,236.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-04-17,340.2,False,False,False,False,False,False,False
@@ -7090,7 +7090,7 @@ BK312080,City Hotel,2016-06-26,2.0,1.0,PRT,Direct,Direct,Transient,0,0,0,14.0,,0
 BK307364,City Hotel,2016-02-26,1.0,0.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,No-Show,2016-02-26,170.0,False,False,False,False,False,False,False
 BK324068,Resort Hotel,2016-05-15,2.0,9.0,GBR,Groups,TA/TO,Transient-Party,0,0,0,,,0,Check-Out,2016-05-16,70.0,False,False,False,False,False,False,False
 BK306540,Resort Hotel,2016-12-03,2.0,183.0,PRT,Groups,TA/TO,Transient,0,0,0,38.0,,0,Canceled,2016-10-26,216.0,False,False,False,False,False,False,False
-BK303273,Resort Hotel,2017-08-30,1.0,8.0,ESP,Offline TA/TO,TA/TO,Transient,0,0,0,104.0,,0,Canceled,2017-08-31,166.5,False,False,False,False,False,False,False
+BK303273,Resort Hotel,2017-08-30,1.0,8.0,ESP,Offline TA/TO,TA/TO,Transient,0,0,0,104.0,,0,Canceled,2017-08-31,166.5,False,False,False,False,False,False,True
 BK318792,Resort Hotel,2016-08-04,2.0,349.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-06-21,627.0,False,False,False,False,False,False,False
 BK300687,Resort Hotel,2016-05-12,1.0,236.0,GBR,Groups,TA/TO,Transient-Party,0,0,0,315.0,,0,Check-Out,2016-05-15,144.0,False,False,False,False,False,False,False
 BK302208,City Hotel,2017-08-05,2.0,137.0,ESP,Offline TA/TO,TA/TO,Transient,0,0,0,168.0,,0,Check-Out,2017-08-11,426.6,False,False,False,False,False,False,False
@@ -8193,7 +8193,7 @@ BK318017,City Hotel,2016-05-02,2.0,180.0,ITA,Offline TA/TO,TA/TO,Transient-Party
 BK306295,Resort Hotel,2016-02-06,2.0,5.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2016-02-09,183.0,False,False,False,False,False,False,False
 BK309152,City Hotel,2015-08-08,2.0,4.0,ITA,Offline TA/TO,TA/TO,Transient-Party,0,0,0,17.0,,0,Check-Out,2015-08-11,,False,False,False,False,False,False,False
 BK316911,City Hotel,2015-08-25,2.0,4.0,ESP,Groups,TA/TO,Transient-Party,0,0,0,1.0,,0,Check-Out,2015-08-29,248.0,False,False,False,False,False,False,False
-BK315199,City Hotel,2017-01-05,1.0,3.0,USA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-01-08,270.3,False,False,False,False,False,False,False
+BK315199,City Hotel,2017-01-05,1.0,3.0,USA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-01-08,270.3,False,False,False,False,False,False,True
 BK301312,City Hotel,2016-05-26,2.0,316.0,AUT,Groups,TA/TO,Transient-Party,0,0,0,30.0,,0,Check-Out,2016-05-29,330.0,False,False,False,False,False,False,False
 BK304659,Resort Hotel,2015-07-21,3.0,8.0,PRT,Direct,Direct,Transient,0,0,0,250.0,,0,Check-Out,2015-07-26,1035.0,False,False,False,False,False,False,False
 BK301476,City Hotel,2015-12-08,1.0,34.0,PRT,Offline TA/TO,TA/TO,Transient,0,1,0,19.0,,0,Canceled,2015-11-06,212.36,False,False,False,False,False,False,False
@@ -8596,7 +8596,7 @@ BK319969,Resort Hotel,2015-09-12,2.0,253.0,PRT,Offline TA/TO,TA/TO,Transient,0,1
 BK314026,City Hotel,2017-05-09,2.0,13.0,CHE,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2017-05-12,480.0,False,False,False,False,False,False,False
 BK311913,City Hotel,2015-09-09,1.0,0.0,PRT,Online TA,TA/TO,Contract,0,0,0,9.0,,0,Check-Out,2015-09-10,142.0,False,False,False,False,False,False,False
 BK302491,City Hotel,2016-09-09,1.0,178.0,PRT,Groups,TA/TO,Transient,0,0,0,29.0,,0,Canceled,2016-03-23,270.0,False,False,False,False,False,False,False
-BK305034,Resort Hotel,2016-01-25,1.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2016-01-27,,False,False,False,False,False,False,False
+BK305034,Resort Hotel,2016-01-25,1.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2016-01-27,,False,False,False,False,False,False,True
 BK319057,Resort Hotel,2016-12-08,2.0,92.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-09-08,126.0,False,False,False,False,False,False,False
 BK323612,Resort Hotel,2016-06-03,2.0,182.0,ESP,Groups,TA/TO,Transient,0,0,0,248.0,,0,Canceled,2016-01-20,291.9,False,False,False,False,False,False,False
 BK309961,City Hotel,2016-07-08,2.0,146.0,PRT,Online TA,TA/TO,Transient-Party,0,0,0,9.0,,0,Check-Out,2016-07-09,127.8,False,False,False,False,False,False,False
@@ -10526,7 +10526,7 @@ BK320208,Resort Hotel,2015-09-13,2.0,178.0,PRT,Online TA,TA/TO,Transient-Party,0
 BK311990,City Hotel,2016-04-16,2.0,82.0,USA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-03-06,656.22,False,False,False,False,False,False,False
 BK313392,City Hotel,2016-09-09,2.0,18.0,NLD,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-09-12,435.0,False,False,False,False,False,False,False
 BK308950,Resort Hotel,2017-07-23,2.0,4.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-07-31,1627.04,False,False,False,False,False,False,False
-BK308627,City Hotel,2016-12-30,2.0,37.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-12-31,146.0,False,False,False,False,False,False,False
+BK308627,City Hotel,2016-12-30,2.0,37.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-12-31,146.0,False,False,False,False,False,False,True
 BK322290,City Hotel,2016-12-08,2.0,49.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-11-21,469.8,False,False,False,False,False,False,False
 BK306110,City Hotel,2016-09-13,1.0,40.0,USA,Groups,TA/TO,Transient-Party,0,0,0,86.0,,0,Check-Out,2016-09-18,540.0,False,False,False,False,False,False,False
 BK310093,Resort Hotel,2016-05-07,2.0,37.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2016-05-11,380.0,False,False,False,False,False,False,False
@@ -10558,7 +10558,7 @@ BK314275,City Hotel,2016-08-06,2.0,235.0,FRA,Online TA,TA/TO,Transient-Party,0,0
 BK317983,Resort Hotel,2015-09-13,2.0,108.0,IRL,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2015-09-22,1185.03,False,False,False,False,False,False,False
 BK314299,City Hotel,2016-06-15,1.0,188.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,119.0,,39,Canceled,2016-01-18,,False,False,False,False,False,False,False
 BK304366,Resort Hotel,2016-07-17,2.0,131.0,GBR,Offline TA/TO,TA/TO,Contract,0,0,0,243.0,,0,Check-Out,2016-07-24,913.85,False,False,False,False,False,False,False
-BK307014,City Hotel,2016-09-22,2.0,276.0,ROU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,178,Canceled,2016-09-25,348.99,False,False,False,False,False,False,False
+BK307014,City Hotel,2016-09-22,2.0,276.0,ROU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,178,Canceled,2016-09-25,348.99,False,False,False,False,False,False,True
 BK312988,Resort Hotel,2017-02-13,2.0,94.0,GBR,Complementary,TA/TO,Transient-Party,0,0,0,152.0,,0,Check-Out,2017-02-17,0.0,False,False,False,False,False,False,False
 BK302739,Resort Hotel,2015-09-19,2.0,7.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2015-09-20,160.0,False,False,False,False,False,False,False
 BK303644,City Hotel,2016-12-10,2.0,46.0,AUT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-12-11,102.6,False,False,False,False,False,False,False
@@ -10656,7 +10656,7 @@ BK301861,City Hotel,2016-04-11,2.0,92.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,
 BK323649,Resort Hotel,2017-08-21,2.0,4.0,PRT,Direct,Direct,Transient,0,0,0,250.0,,0,Check-Out,2017-08-22,228.0,False,False,False,False,False,False,False
 BK312716,Resort Hotel,2017-05-27,2.0,175.0,ITA,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-05-28,100.0,False,False,False,False,False,False,False
 BK313061,City Hotel,2016-06-14,2.0,221.0,PRT,Online TA,TA/TO,Transient,0,1,0,8.0,,0,Canceled,2015-11-11,856.8,False,False,False,False,False,False,False
-BK302011,Resort Hotel,2016-05-17,2.0,143.0,GBR,Offline TA/TO,TA/TO,Transient,0,0,0,143.0,,0,Canceled,2016-05-24,471.8,False,False,False,False,False,False,False
+BK302011,Resort Hotel,2016-05-17,2.0,143.0,GBR,Offline TA/TO,TA/TO,Transient,0,0,0,143.0,,0,Canceled,2016-05-24,471.8,False,False,False,False,False,False,True
 BK309678,City Hotel,2017-03-19,1.0,104.0,FRA,Offline TA/TO,TA/TO,Transient-Party,0,0,0,20.0,,0,Check-Out,2017-03-26,455.0,False,False,False,False,False,False,False
 BK306820,City Hotel,2017-06-05,2.0,18.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-06-07,260.0,False,False,False,False,False,False,False
 BK320132,Resort Hotel,2016-01-22,2.0,4.0,PRT,Direct,Direct,Transient,0,0,0,250.0,,0,Check-Out,2016-01-23,57.0,False,False,False,False,False,False,False
@@ -11222,7 +11222,7 @@ BK315701,City Hotel,2017-02-15,0.0,0.0,PRT,Online TA,TA/TO,Transient,1,0,0,7.0,,
 BK316060,City Hotel,2016-06-15,2.0,256.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Check-Out,2016-06-17,230.0,False,False,False,False,False,False,False
 BK320854,Resort Hotel,2015-08-09,2.0,61.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,149.0,,0,Check-Out,2015-08-16,1211.0,False,False,False,False,False,False,False
 BK311692,City Hotel,2016-07-25,2.0,160.0,NLD,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-07-12,,False,False,False,False,False,False,False
-BK313300,Resort Hotel,2017-03-13,1.0,17.0,PRT,Corporate,Corporate,Transient,1,0,16,,154.0,0,Canceled,2017-03-15,70.0,False,False,False,False,False,False,False
+BK313300,Resort Hotel,2017-03-13,1.0,17.0,PRT,Corporate,Corporate,Transient,1,0,16,,154.0,0,Canceled,2017-03-15,70.0,False,False,False,False,False,False,True
 BK303200,Resort Hotel,2016-02-12,2.0,111.0,PRT,Groups,TA/TO,Transient,0,0,0,38.0,,0,Canceled,2016-01-26,140.0,False,False,False,False,False,False,False
 BK309465,Resort Hotel,2016-08-11,2.0,190.0,GBR,Offline TA/TO,TA/TO,Contract,0,0,0,40.0,,0,Check-Out,2016-08-18,805.35,False,False,False,False,False,False,False
 BK317241,City Hotel,2017-02-20,2.0,49.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-02-25,450.5,False,False,False,False,False,False,False
@@ -11323,7 +11323,7 @@ BK316048,Resort Hotel,2017-06-09,2.0,85.0,GBR,Offline TA/TO,TA/TO,Contract,0,0,0
 BK312803,City Hotel,2015-10-02,1.0,164.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,19.0,,0,Canceled,2015-10-01,200.0,False,False,False,False,False,False,False
 BK324242,City Hotel,2016-04-04,3.0,64.0,BEL,Online TA,TA/TO,Transient-Party,0,0,0,9.0,,0,Check-Out,2016-04-08,520.2,False,False,False,False,False,False,False
 BK306102,Resort Hotel,2016-05-01,2.0,13.0,USA,Online TA,TA/TO,Transient,0,0,0,5.0,,0,Check-Out,2016-05-03,144.0,False,False,False,False,False,False,False
-BK317930,Resort Hotel,2016-10-09,2.0,9.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-10-12,419.01,False,False,False,False,False,False,False
+BK317930,Resort Hotel,2016-10-09,2.0,9.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-10-12,419.01,False,False,False,False,False,False,True
 BK310158,Resort Hotel,2015-08-04,2.0,190.0,GBR,Offline TA/TO,TA/TO,Contract,0,0,0,115.0,,0,Check-Out,2015-08-14,1107.0,False,False,False,False,False,False,False
 BK314438,Resort Hotel,2015-11-20,2.0,289.0,GIB,Groups,TA/TO,Transient-Party,0,0,0,134.0,,0,Check-Out,2015-11-23,171.0,False,False,False,False,False,False,False
 BK316312,Resort Hotel,2017-03-04,2.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2017-03-05,70.0,False,False,False,False,False,False,False
@@ -11419,7 +11419,7 @@ BK309119,City Hotel,2016-07-31,2.0,105.0,BEL,Online TA,TA/TO,Transient,0,0,0,9.0
 BK307073,City Hotel,2016-05-05,2.0,110.0,AUT,Online TA,TA/TO,Transient-Party,0,0,0,9.0,,0,Check-Out,2016-05-09,406.32,False,False,False,False,False,False,False
 BK315060,City Hotel,2015-11-23,1.0,98.0,FRA,Groups,TA/TO,Transient-Party,0,0,0,37.0,,0,No-Show,2015-11-23,210.0,False,False,False,False,False,False,False
 BK313376,City Hotel,2017-06-26,2.0,213.0,PRT,Groups,TA/TO,Transient,0,0,0,323.0,,0,Canceled,2016-11-25,230.0,False,False,False,False,False,False,False
-BK320961,Resort Hotel,2015-10-06,2.0,277.0,GBR,Groups,Direct,Transient-Party,0,0,0,273.0,,0,Canceled,2015-10-13,471.17,False,False,False,False,False,False,False
+BK320961,Resort Hotel,2015-10-06,2.0,277.0,GBR,Groups,Direct,Transient-Party,0,0,0,273.0,,0,Canceled,2015-10-13,471.17,False,False,False,False,False,False,True
 BK324850,City Hotel,2017-05-15,1.0,104.0,PRT,Groups,TA/TO,Transient,0,0,0,,,0,Canceled,2017-01-31,,False,False,False,False,False,False,False
 BK305563,Resort Hotel,2015-08-10,2.0,35.0,ESP,Online TA,TA/TO,Transient,0,0,0,241.0,,0,Check-Out,2015-08-16,882.42,False,False,False,False,False,False,False
 BK301758,City Hotel,2016-06-03,2.0,197.0,PRT,Offline TA/TO,TA/TO,Transient,0,1,0,21.0,,25,Canceled,2015-12-14,240.0,False,False,False,False,False,False,False
@@ -11824,7 +11824,7 @@ BK321626,Resort Hotel,2016-07-04,2.0,220.0,POL,Offline TA/TO,TA/TO,Transient,0,0
 BK324893,City Hotel,2015-09-02,2.0,21.0,IRN,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2015-08-19,210.0,False,False,False,False,False,False,False
 BK310569,Resort Hotel,2017-06-04,2.0,127.0,IRL,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2017-03-28,700.0,False,False,False,False,False,False,False
 BK320835,City Hotel,2016-09-06,1.0,230.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,44.0,,0,Check-Out,2016-09-11,555.0,False,False,False,False,False,False,False
-BK321771,Resort Hotel,2016-11-27,2.0,6.0,PRT,Online TA,TA/TO,Transient,0,0,1,240.0,,0,Canceled,2016-11-30,144.0,False,False,False,False,False,False,False
+BK321771,Resort Hotel,2016-11-27,2.0,6.0,PRT,Online TA,TA/TO,Transient,0,0,1,240.0,,0,Canceled,2016-11-30,144.0,False,False,False,False,False,False,True
 BK314490,Resort Hotel,2015-07-03,2.0,101.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2015-07-10,695.1,False,False,False,False,False,False,False
 BK309772,Resort Hotel,2016-10-20,2.0,166.0,IRL,Online TA,TA/TO,Transient-Party,0,0,0,240.0,,0,Check-Out,2016-10-27,368.97,False,False,False,False,False,False,False
 BK321654,City Hotel,2017-02-06,2.0,39.0,BEL,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-01-06,299.2,False,False,False,False,False,False,False
@@ -12044,7 +12044,7 @@ BK315373,City Hotel,2017-05-09,1.0,34.0,SWE,Groups,TA/TO,Transient-Party,0,0,0,3
 BK314520,Resort Hotel,2016-09-08,2.0,165.0,GBR,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2016-09-11,498.0,False,False,False,False,False,False,False
 BK310906,City Hotel,2016-10-29,2.0,52.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-10-22,198.0,False,False,False,False,False,False,False
 BK314592,City Hotel,2017-06-25,2.0,188.0,ISR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-06-27,275.5,False,False,False,False,False,False,False
-BK322255,City Hotel,2017-02-16,2.0,34.0,GBR,Direct,Direct,Transient,0,0,0,,,0,Canceled,2017-02-21,371.0,False,False,False,False,False,False,False
+BK322255,City Hotel,2017-02-16,2.0,34.0,GBR,Direct,Direct,Transient,0,0,0,,,0,Canceled,2017-02-21,371.0,False,False,False,False,False,False,True
 BK317579,Resort Hotel,2017-08-06,2.0,190.0,MAR,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2017-05-14,1212.0,False,False,False,False,False,False,False
 BK303703,City Hotel,2016-08-27,3.0,87.0,DEU,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Check-Out,2016-09-02,672.18,False,False,False,False,False,False,False
 BK305568,Resort Hotel,2016-01-20,1.0,22.0,PRT,Online TA,TA/TO,Transient,1,0,1,240.0,,0,Check-Out,2016-01-21,39.0,False,False,False,False,False,False,False
@@ -12175,7 +12175,7 @@ BK321669,City Hotel,2016-03-27,1.0,1.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,
 BK309380,Resort Hotel,2016-10-31,2.0,35.0,FRA,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2016-11-05,203.4,False,False,False,False,False,False,False
 BK311289,Resort Hotel,2016-05-16,2.0,213.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,298.0,,0,Canceled,2016-04-19,170.0,False,False,False,False,False,False,False
 BK310953,Resort Hotel,2017-03-09,1.0,107.0,CN,Groups,TA/TO,Transient-Party,0,0,0,96.0,,0,Check-Out,2017-03-11,144.0,False,False,False,True,False,False,False
-BK324535,Resort Hotel,2016-07-01,2.0,4.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-07-03,,False,False,False,False,False,False,False
+BK324535,Resort Hotel,2016-07-01,2.0,4.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-07-03,,False,False,False,False,False,False,True
 BK322591,City Hotel,2016-04-09,2.0,159.0,FRA,Offline TA/TO,TA/TO,Transient-Party,0,0,0,3.0,,0,Check-Out,2016-04-11,140.0,False,False,False,False,False,False,False
 BK316362,City Hotel,2016-10-09,2.0,124.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-10-12,356.4,False,False,False,False,False,False,False
 BK324996,Resort Hotel,2016-10-20,2.0,386.0,GBR,Groups,Corporate,Transient-Party,0,0,0,,,0,Check-Out,2016-10-24,196.0,False,False,False,False,False,False,False
@@ -13128,7 +13128,7 @@ BK301728,Resort Hotel,2016-10-12,2.0,364.0,GBR,Groups,Corporate,Transient-Party,
 BK314050,City Hotel,2016-09-03,2.0,61.0,ESP,Offline TA/TO,TA/TO,Transient,0,0,0,42.0,,0,Check-Out,2016-09-07,461.0,False,False,False,False,False,False,False
 BK310073,City Hotel,2015-09-06,2.0,2.0,CHE,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2015-09-13,934.01,False,False,False,False,False,False,False
 BK309611,City Hotel,2016-03-26,2.0,92.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,170.0,,0,Canceled,2016-01-19,300.0,False,False,False,False,False,False,False
-BK312971,City Hotel,2015-08-13,2.0,106.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2015-08-22,688.5,False,False,False,False,False,False,False
+BK312971,City Hotel,2015-08-13,2.0,106.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2015-08-22,688.5,False,False,False,False,False,False,True
 BK309739,City Hotel,2016-09-11,1.0,4.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-09-12,149.0,False,False,False,False,False,False,False
 BK321047,City Hotel,2015-09-10,2.0,17.0,USA,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Check-Out,2015-09-12,147.84,False,False,False,False,False,False,False
 BK311132,City Hotel,2017-06-24,2.0,129.0,PRT,Groups,TA/TO,Transient,0,0,0,30.0,,0,Canceled,2017-02-15,601.53,False,False,False,False,False,False,False
@@ -13787,7 +13787,7 @@ BK303495,City Hotel,2015-09-22,2.0,7.0,JPN,Online TA,TA/TO,Contract,0,0,0,9.0,,0
 BK324297,City Hotel,2016-09-25,1.0,39.0,PRT,Online TA,TA/TO,Transient,0,0,0,10.0,,0,Canceled,2016-09-20,129.7,False,False,False,False,False,False,False
 BK318766,City Hotel,2015-11-14,2.0,5.0,PRT,Online TA,TA/TO,Transient,0,1,0,9.0,,0,Canceled,2015-11-10,107.0,False,False,False,False,False,False,False
 BK302667,City Hotel,2017-08-02,2.0,169.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-08-09,1084.51,False,False,False,False,False,False,False
-BK324112,City Hotel,2016-09-13,2.0,346.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Canceled,2016-09-15,230.0,False,False,False,False,False,False,False
+BK324112,City Hotel,2016-09-13,2.0,346.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Canceled,2016-09-15,230.0,False,False,False,False,False,False,True
 BK315705,Resort Hotel,2017-05-03,2.0,248.0,PRT,Online TA,TA/TO,Transient,0,0,0,242.0,,0,Check-Out,2017-05-08,270.0,False,False,False,False,False,False,False
 BK310461,Resort Hotel,2016-03-14,1.0,0.0,PRT,Corporate,Direct,Transient,0,0,1,,,0,Check-Out,2016-03-16,80.0,False,False,False,False,False,False,False
 BK307117,City Hotel,2016-06-06,2.0,118.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,37.0,,0,Canceled,2016-04-13,240.0,False,False,False,False,False,False,False
@@ -13846,7 +13846,7 @@ BK304165,Resort Hotel,2017-06-29,2.0,257.0,ROU,Online TA,TA/TO,Transient,0,0,0,2
 BK302755,Resort Hotel,2016-01-03,2.0,19.0,ESP,Online TA,TA/TO,Transient,0,0,0,242.0,,0,Check-Out,2016-01-10,577.5,False,False,False,False,False,False,False
 BK315887,City Hotel,2017-07-24,2.0,142.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-07-28,462.52,False,False,False,False,False,False,False
 BK323187,City Hotel,2016-01-14,2.0,50.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,20.0,,43,Check-Out,2016-01-17,156.0,False,False,False,False,False,False,False
-BK317381,City Hotel,2015-10-04,2.0,10.0,BRA,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Canceled,2015-10-05,87.78,False,False,False,False,False,False,False
+BK317381,City Hotel,2015-10-04,2.0,10.0,BRA,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Canceled,2015-10-05,87.78,False,False,False,False,False,False,True
 BK301399,City Hotel,2017-01-25,1.0,78.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,,365.0,0,Canceled,2017-01-24,170.0,False,False,False,False,False,False,False
 BK324211,City Hotel,2017-05-11,2.0,120.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,28.0,,0,No-Show,2017-05-11,267.3,False,False,False,False,False,False,False
 BK319633,City Hotel,2016-09-22,2.0,276.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,178,Canceled,2016-09-02,285.0,False,False,False,False,False,False,False
@@ -14597,7 +14597,7 @@ BK310648,Resort Hotel,2016-12-23,2.0,91.0,ESP,Online TA,TA/TO,Transient-Party,0,
 BK317934,City Hotel,2015-07-18,2.0,274.0,PRT,Groups,TA/TO,Transient-Party,0,1,0,1.0,,0,Canceled,2015-07-06,248.0,False,False,False,False,False,False,False
 BK304212,Resort Hotel,2016-08-21,2.0,51.0,ESP,Offline TA/TO,TA/TO,Transient,0,0,0,433.0,,0,Check-Out,2016-09-03,2516.8,False,False,False,False,False,False,False
 BK311875,City Hotel,2016-02-19,2.0,99.0,PRT,Corporate,Corporate,Transient-Party,0,1,0,,67.0,0,Canceled,2015-12-22,80.0,False,False,False,False,False,False,False
-BK306243,City Hotel,2016-05-09,2.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2016-05-10,85.0,False,False,False,False,False,False,False
+BK306243,City Hotel,2016-05-09,2.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Canceled,2016-05-10,85.0,False,False,False,False,False,False,True
 BK309474,City Hotel,2017-05-04,2.0,143.0,PRT,Groups,TA/TO,Transient,0,0,0,56.0,,0,Canceled,2016-12-12,240.0,False,False,False,False,False,False,False
 BK324689,City Hotel,2016-03-24,2.0,0.0,CHN,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-03-25,141.0,False,False,False,False,False,False,False
 BK309548,City Hotel,2016-06-27,2.0,83.0,IRL,Online TA,TA/TO,Transient,0,0,0,89.0,,0,Check-Out,2016-06-30,,False,False,False,False,False,False,False
@@ -15187,7 +15187,7 @@ BK306168,City Hotel,2017-03-31,2.0,99.0,POL,Online TA,TA/TO,Transient,0,0,0,9.0,
 BK317398,City Hotel,2017-06-15,2.0,320.0,PRT,Groups,TA/TO,Transient,0,0,0,6.0,,0,Canceled,2017-01-12,270.0,False,False,False,False,False,False,False
 BK314630,City Hotel,2017-01-19,2.0,23.0,ITA,Offline TA/TO,TA/TO,Transient,0,0,0,85.0,,0,Check-Out,2017-01-22,348.37,False,False,False,False,False,False,False
 BK301535,City Hotel,2016-12-26,2.0,261.0,BRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-12-02,477.72,False,False,False,False,False,False,False
-BK303317,City Hotel,2016-09-19,2.0,200.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-09-22,483.3,False,False,False,False,False,False,False
+BK303317,City Hotel,2016-09-19,2.0,200.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-09-22,483.3,False,False,False,False,False,False,True
 BK315580,City Hotel,2016-08-16,3.0,45.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-08-19,531.9,False,False,False,False,False,False,False
 BK323131,City Hotel,2016-12-27,3.0,249.0,FRA,Offline TA/TO,TA/TO,Transient,0,0,0,22.0,,0,Check-Out,2017-01-01,923.25,False,False,False,False,False,False,False
 BK315279,Resort Hotel,2016-09-01,2.0,223.0,GBR,Offline TA/TO,TA/TO,Contract,0,0,0,243.0,,0,Check-Out,2016-09-15,1118.6,False,False,False,False,False,False,False
@@ -15601,7 +15601,7 @@ BK308023,Resort Hotel,2017-01-05,1.0,23.0,FRA,Offline TA/TO,TA/TO,Transient,0,0,
 BK305914,City Hotel,2017-06-05,2.0,55.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-06-09,560.0,False,False,False,False,False,False,False
 BK300597,Resort Hotel,2017-02-18,1.0,0.0,GBR,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2017-02-20,120.0,False,False,False,False,False,False,False
 BK313807,City Hotel,2015-10-17,1.0,47.0,PRT,Direct,Direct,Transient,0,0,0,14.0,,0,Canceled,2015-10-09,120.0,False,False,False,False,False,False,False
-BK315769,City Hotel,2016-01-11,1.0,0.0,PRT,Corporate,Corporate,Transient,1,2,16,,40.0,0,Canceled,2016-01-14,197.01,False,False,False,False,False,False,False
+BK315769,City Hotel,2016-01-11,1.0,0.0,PRT,Corporate,Corporate,Transient,1,2,16,,40.0,0,Canceled,2016-01-14,197.01,False,False,False,False,False,False,True
 BK301234,City Hotel,2016-04-17,2.0,160.0,PRT,Online TA,TA/TO,Contract,0,0,0,9.0,,0,No-Show,2016-04-17,428.0,False,False,False,False,False,False,False
 BK312008,Resort Hotel,2016-08-08,2.0,131.0,PRT,Direct,Direct,Transient-Party,0,0,0,,,0,Check-Out,2016-08-15,1260.7,False,False,False,False,False,False,False
 BK302904,City Hotel,2016-04-06,3.0,25.0,BEL,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-03-21,501.0,False,False,False,False,False,False,False
@@ -17716,7 +17716,7 @@ BK302143,Resort Hotel,2016-05-25,1.0,224.0,GBR,Groups,Direct,Transient-Party,0,0
 BK306710,City Hotel,2015-10-19,2.0,216.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,1.0,,0,Canceled,2015-09-11,36.0,False,False,False,False,False,False,False
 BK310617,City Hotel,2017-05-17,2.0,121.0,IRL,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-05-24,962.99,False,False,False,False,False,False,False
 BK303329,Resort Hotel,2017-04-16,2.0,87.0,GBR,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2017-01-21,1246.0,False,False,False,False,False,False,False
-BK318605,Resort Hotel,2016-07-17,2.0,181.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,No-Show,2016-03-28,1070.02,False,False,False,False,False,False,False
+BK318605,Resort Hotel,2016-07-17,2.0,181.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,No-Show,2016-03-28,1070.02,False,False,False,False,False,False,True
 BK317682,City Hotel,2017-05-24,2.0,20.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,87.0,,0,Canceled,2017-05-16,120.0,False,False,False,False,False,False,False
 BK307206,City Hotel,2015-10-30,2.0,99.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,3.0,,0,Canceled,2015-10-12,260.0,False,False,False,False,False,False,False
 BK301449,City Hotel,2017-08-24,,58.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-08-26,276.0,False,False,False,False,False,False,False
@@ -17823,13 +17823,13 @@ BK319029,City Hotel,2015-10-16,2.0,84.0,NOR,Online TA,TA/TO,Transient,0,0,0,8.0,
 BK316692,City Hotel,2015-12-29,2.0,140.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,3.0,,0,Canceled,2015-10-19,350.0,False,False,False,False,False,False,False
 BK302708,City Hotel,2017-03-30,2.0,83.0,AUT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-04-02,311.4,False,False,False,False,False,False,False
 BK310966,City Hotel,2015-11-12,2.0,48.0,PRT,Online TA,TA/TO,Contract,0,1,0,9.0,,0,Canceled,2015-09-28,460.8,False,False,False,False,False,False,False
-BK304630,Resort Hotel,2016-03-07,2.0,30.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,38.0,,0,Canceled,2016-03-13,392.4,False,False,False,False,False,False,False
+BK304630,Resort Hotel,2016-03-07,2.0,30.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,38.0,,0,Canceled,2016-03-13,392.4,False,False,False,False,False,False,True
 BK321946,City Hotel,2017-07-21,2.0,11.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-07-23,318.0,False,False,False,False,False,False,False
 BK313981,City Hotel,2016-02-16,1.0,12.0,PRT,Corporate,Corporate,Transient,1,0,4,,40.0,0,Check-Out,2016-02-18,,False,False,False,False,False,False,False
 BK306469,City Hotel,2017-06-26,2.0,103.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-07-04,1224.0,False,False,False,False,False,False,False
 BK305158,City Hotel,2015-08-14,2.0,39.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Check-Out,2015-08-16,218.0,False,False,False,False,False,False,False
 BK312696,City Hotel,2017-01-25,2.0,61.0,PRT,Groups,TA/TO,Transient,0,0,0,326.0,,0,Canceled,2016-11-25,160.0,False,False,False,False,False,False,False
-BK324084,Resort Hotel,2016-06-26,2.0,167.0,IRL,Online TA,TA/TO,Transient-Party,0,0,0,240.0,,0,Canceled,2016-07-03,521.99,False,False,False,False,False,False,False
+BK324084,Resort Hotel,2016-06-26,2.0,167.0,IRL,Online TA,TA/TO,Transient-Party,0,0,0,240.0,,0,Canceled,2016-07-03,521.99,False,False,False,False,False,False,True
 BK303878,Resort Hotel,2016-09-11,1.0,13.0,PRT,Direct,Direct,Transient,0,0,0,250.0,,0,Check-Out,2016-09-14,297.0,False,False,False,False,False,False,False
 BK323937,City Hotel,2016-08-09,2.0,128.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-05-10,517.5,False,False,False,False,False,False,False
 BK302942,Resort Hotel,2015-11-11,1.0,40.0,PRT,Corporate,Corporate,Transient-Party,0,0,0,281.0,,0,Canceled,2015-10-10,160.0,False,False,False,False,False,False,False
@@ -19449,7 +19449,7 @@ BK308585,City Hotel,2016-04-06,2.0,55.0,PRT,Offline TA/TO,TA/TO,Transient-Party,
 BK308949,City Hotel,2016-06-04,2.0,220.0,USA,Groups,TA/TO,Transient-Party,0,0,0,1.0,,0,Check-Out,2016-06-07,219.99,False,False,False,False,False,False,False
 BK316435,Resort Hotel,2016-01-10,1.0,2.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,196.0,,0,Check-Out,2016-01-11,25.0,False,False,False,False,False,False,False
 BK304565,City Hotel,2017-05-13,2.0,12.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-05-14,180.0,False,False,False,False,False,False,False
-BK309752,Resort Hotel,2015-07-13,2.0,9.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2015-07-15,322.0,False,False,False,False,False,False,False
+BK309752,Resort Hotel,2015-07-13,2.0,9.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2015-07-15,322.0,False,False,False,False,False,False,True
 BK321515,Resort Hotel,2016-05-19,1.0,0.0,PRT,Direct,Direct,Transient-Party,0,0,0,,16.0,0,Check-Out,2016-05-20,72.0,False,False,False,False,False,False,False
 BK318940,City Hotel,2016-10-06,2.0,194.0,JPN,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Check-Out,2016-10-08,188.5,False,False,False,False,False,False,False
 BK316307,City Hotel,2016-03-23,2.0,5.0,FIN,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2016-03-24,112.0,False,False,False,False,False,False,False
@@ -19630,7 +19630,7 @@ BK319358,City Hotel,2016-06-02,2.0,30.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,
 BK311127,City Hotel,2017-03-03,2.0,2.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-03-05,176.0,False,False,False,False,False,False,False
 BK324456,City Hotel,2017-03-10,2.0,66.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,154.0,,0,Canceled,2017-01-12,240.0,False,False,False,False,False,False,False
 BK322465,Resort Hotel,2015-07-29,2.0,37.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,196.0,,0,Canceled,2015-07-27,665.0,False,False,False,False,False,False,False
-BK308782,Resort Hotel,2017-08-02,2.0,100.0,ESP,Online TA,TA/TO,Transient,0,0,0,175.0,,0,Canceled,2017-08-07,1160.0,False,False,False,False,False,False,False
+BK308782,Resort Hotel,2017-08-02,2.0,100.0,ESP,Online TA,TA/TO,Transient,0,0,0,175.0,,0,Canceled,2017-08-07,1160.0,False,False,False,False,False,False,True
 BK301816,City Hotel,2017-03-18,2.0,178.0,FRA,Offline TA/TO,TA/TO,Transient,0,0,0,28.0,,0,Check-Out,2017-03-20,150.0,False,False,False,False,False,False,False
 BK307478,City Hotel,2015-09-22,2.0,71.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,21.0,,0,Canceled,2015-09-17,285.0,False,False,False,False,False,False,False
 BK322115,City Hotel,2016-03-27,2.0,122.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,26.0,,0,Check-Out,2016-03-30,321.0,False,False,False,False,False,False,False
@@ -20110,7 +20110,7 @@ BK301342,City Hotel,2016-11-07,1.0,41.0,ESP,Online TA,GDS,Transient,0,0,0,195.0,
 BK303933,City Hotel,2017-03-21,1.0,0.0,PRT,Corporate,Corporate,Transient,0,0,0,,408.0,0,Check-Out,2017-03-22,80.0,False,False,False,False,False,False,False
 BK303442,Resort Hotel,2016-08-19,2.0,288.0,GBR,Offline TA/TO,TA/TO,Transient,0,0,0,36.0,,0,Check-Out,2016-08-26,820.33,False,False,False,False,False,False,False
 BK318546,Resort Hotel,2015-11-27,2.0,15.0,PRT,Corporate,Direct,Transient-Party,0,0,0,,346.0,0,Check-Out,2015-11-29,160.0,False,False,False,False,False,False,False
-BK315846,Resort Hotel,2017-08-22,2.0,12.0,LTU,Online TA,TA/TO,Transient,0,0,0,241.0,,0,Canceled,2017-08-27,973.2,False,False,False,False,False,False,False
+BK315846,Resort Hotel,2017-08-22,2.0,12.0,LTU,Online TA,TA/TO,Transient,0,0,0,241.0,,0,Canceled,2017-08-27,973.2,False,False,False,False,False,False,True
 BK302395,Resort Hotel,2016-05-13,2.0,44.0,GBR,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2016-05-16,375.0,False,False,False,False,False,False,False
 BK316168,City Hotel,2017-03-16,2.0,57.0,ITA,Offline TA/TO,TA/TO,Transient,0,0,0,28.0,,0,Check-Out,2017-03-19,225.0,False,False,False,False,False,False,False
 BK320497,Resort Hotel,2015-11-01,1.0,33.0,PRT,Corporate,Corporate,Transient,0,0,0,,94.0,0,No-Show,2015-11-01,25.0,False,False,False,False,False,False,False
@@ -20238,7 +20238,7 @@ BK303075,City Hotel,2016-06-11,2.0,99.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,
 BK308730,City Hotel,2017-07-25,2.0,291.0,GBR,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2017-07-26,98.1,False,False,False,False,False,False,False
 BK306506,City Hotel,2015-10-10,2.0,282.0,SWE,Offline TA/TO,TA/TO,Transient-Party,0,0,0,21.0,,0,Check-Out,2015-10-13,230.01,False,False,False,False,False,False,False
 BK310954,City Hotel,2016-09-17,2.0,115.0,CHN,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-06-05,427.68,False,False,False,False,False,False,False
-BK305513,City Hotel,2016-07-23,2.0,4.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-07-25,282.0,False,False,False,False,False,False,False
+BK305513,City Hotel,2016-07-23,2.0,4.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-07-25,282.0,False,False,False,False,False,False,True
 BK304356,City Hotel,2016-10-16,2.0,159.0,PRT,Direct,Direct,Transient,0,0,0,14.0,,0,Canceled,2016-05-10,432.0,False,False,False,False,False,False,False
 BK303941,City Hotel,2017-05-28,3.0,87.0,BRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-06-02,945.0,False,False,False,False,False,False,False
 BK311974,City Hotel,2017-08-14,2.0,173.0,FRA,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2017-08-17,337.5,False,False,False,False,False,False,False
@@ -20994,7 +20994,7 @@ BK320259,City Hotel,2016-08-23,2.0,137.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0
 BK323042,City Hotel,2017-04-17,2.0,174.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-04-20,351.0,False,False,False,False,False,False,False
 BK321037,City Hotel,2017-06-06,2.0,33.0,NLD,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-06-09,387.0,False,False,False,False,False,False,False
 BK307405,City Hotel,2017-06-05,2.0,74.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-04-13,476.01,False,False,False,False,False,False,False
-BK309051,Resort Hotel,2016-03-18,2.0,37.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-03-22,256.0,False,False,False,False,False,False,False
+BK309051,Resort Hotel,2016-03-18,2.0,37.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-03-22,256.0,False,False,False,False,False,False,True
 BK315884,Resort Hotel,2016-09-12,2.0,32.0,TUR,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2016-09-14,286.0,False,False,False,False,False,False,False
 BK314687,City Hotel,2015-10-21,1.0,5.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,3.0,,0,Check-Out,2015-10-22,0.0,False,False,False,False,False,False,False
 BK311535,City Hotel,2017-05-19,2.0,175.0,PRT,Groups,TA/TO,Transient,0,0,0,12.0,,0,Canceled,2016-11-25,330.0,False,False,False,False,False,False,False
@@ -21278,7 +21278,7 @@ BK300539,City Hotel,2016-07-14,2.0,372.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0
 BK323832,City Hotel,2015-09-18,2.0,116.0,PRT,Online TA,TA/TO,Transient-Party,0,0,0,15.0,,0,Canceled,2015-06-10,288.15,False,False,False,False,False,False,False
 BK314357,City Hotel,2017-05-19,1.0,105.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,,,0,Canceled,2017-02-03,320.0,False,False,False,False,False,False,False
 BK310714,City Hotel,2015-08-08,2.0,30.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,1.0,,0,Canceled,2015-08-01,258.0,False,False,False,False,False,False,False
-BK319726,City Hotel,2017-02-26,1.0,16.0,PRT,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Canceled,2017-03-01,180.18,False,False,False,False,False,False,False
+BK319726,City Hotel,2017-02-26,1.0,16.0,PRT,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Canceled,2017-03-01,180.18,False,False,False,False,False,False,True
 BK300439,Resort Hotel,2015-10-05,2.0,277.0,GBR,Groups,Direct,Transient,0,1,0,273.0,,0,Canceled,2015-10-02,1099.0,False,False,False,False,False,False,False
 BK317316,City Hotel,2016-11-07,2.0,277.0,PRT,Groups,TA/TO,Transient,0,0,0,,,0,Canceled,2016-04-04,300.0,False,False,False,False,False,False,False
 BK308580,City Hotel,2016-10-29,2.0,183.0,BEL,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-09-02,240.3,False,False,False,False,False,False,False
@@ -21990,7 +21990,7 @@ BK316931,Resort Hotel,2017-05-27,2.0,312.0,GBR,Online TA,TA/TO,Transient,0,0,0,2
 BK319968,Resort Hotel,2017-07-22,1.0,26.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2017-07-07,1640.0,False,False,False,False,False,False,False
 BK303797,City Hotel,2017-06-12,2.0,31.0,TUN,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-05-15,660.0,False,False,False,False,False,False,False
 BK315408,City Hotel,2016-09-08,2.0,176.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,171.0,,0,Canceled,2016-06-01,375.3,False,False,False,False,False,False,False
-BK303313,Resort Hotel,2017-06-30,2.0,86.0,PRT,Corporate,TA/TO,Transient,0,0,0,,525.0,0,Canceled,2017-07-02,254.0,False,False,False,False,False,False,False
+BK303313,Resort Hotel,2017-06-30,2.0,86.0,PRT,Corporate,TA/TO,Transient,0,0,0,,525.0,0,Canceled,2017-07-02,254.0,False,False,False,False,False,False,True
 BK316800,City Hotel,2015-10-07,1.0,12.0,PRT,Corporate,Corporate,Transient,0,0,0,,40.0,0,Check-Out,2015-10-08,65.0,False,False,False,False,False,False,False
 BK322034,Resort Hotel,2016-01-10,2.0,4.0,PRT,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2016-01-11,48.0,False,False,False,False,False,False,False
 BK316252,City Hotel,2017-05-22,2.0,18.0,PRT,Groups,TA/TO,Transient-Party,0,0,0,315.0,,0,Check-Out,2017-05-24,240.0,False,False,False,False,False,False,False
@@ -22326,7 +22326,7 @@ BK302601,City Hotel,2015-09-04,2.0,219.0,PRT,Offline TA/TO,TA/TO,Transient-Party
 BK311545,City Hotel,2017-08-08,2.0,174.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,52.0,,0,Canceled,2017-03-17,240.3,False,False,False,False,False,False,False
 BK308623,Resort Hotel,2016-03-03,2.0,47.0,IRL,Offline TA/TO,TA/TO,Transient,0,0,0,8.0,,0,Check-Out,2016-03-17,365.4,False,False,False,False,False,False,False
 BK321355,Resort Hotel,2016-04-30,2.0,197.0,DEU,Groups,TA/TO,Transient-Party,0,0,0,298.0,,0,Check-Out,2016-05-02,170.0,False,False,False,False,False,False,False
-BK322951,City Hotel,2015-11-05,1.0,0.0,PRT,Corporate,Corporate,Transient,0,0,0,,135.0,0,Canceled,2015-11-06,89.0,False,False,False,False,False,False,False
+BK322951,City Hotel,2015-11-05,1.0,0.0,PRT,Corporate,Corporate,Transient,0,0,0,,135.0,0,Canceled,2015-11-06,89.0,False,False,False,False,False,False,True
 BK301290,Resort Hotel,2017-05-28,2.0,247.0,GBR,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-09-23,560.7,False,False,False,False,False,False,False
 BK319420,Resort Hotel,2017-02-06,1.0,109.0,ESP,Direct,Direct,Transient,0,0,0,250.0,,0,Check-Out,2017-02-10,191.2,False,False,False,False,False,False,False
 BK318827,City Hotel,2017-07-09,2.0,37.0,ESP,Direct,Direct,Transient,0,0,0,14.0,,0,Check-Out,2017-07-11,310.0,False,False,False,False,False,False,False
@@ -22395,7 +22395,7 @@ BK308602,City Hotel,2015-09-05,2.0,323.0,PRT,Groups,TA/TO,Transient-Party,0,1,0,
 BK310160,Resort Hotel,2015-10-03,2.0,274.0,PRT,Groups,TA/TO,Transient,0,1,0,96.0,,0,Canceled,2015-06-17,252.35,False,False,False,False,False,False,False
 BK308325,City Hotel,2017-01-06,2.0,18.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,15.0,,0,Canceled,2016-12-22,467.16,False,False,False,False,False,False,False
 BK316661,City Hotel,2016-12-20,2.0,105.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-10-15,93.6,False,False,False,False,False,False,False
-BK317079,City Hotel,2015-12-18,2.0,2.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2015-12-20,194.0,False,False,False,False,False,False,False
+BK317079,City Hotel,2015-12-18,2.0,2.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2015-12-20,194.0,False,False,False,False,False,False,True
 BK317477,City Hotel,2016-09-21,2.0,271.0,BEL,Offline TA/TO,TA/TO,Transient-Party,0,0,0,12.0,,0,Check-Out,2016-09-24,303.99,False,False,False,False,False,False,False
 BK315457,Resort Hotel,2016-03-02,2.0,2.0,PRT,Online TA,Direct,Transient,0,0,0,,,0,Check-Out,2016-03-03,58.0,False,False,False,False,False,False,False
 BK300756,City Hotel,2017-04-16,2.0,173.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2017-03-23,198.0,False,False,False,False,False,False,False
@@ -22599,7 +22599,7 @@ BK313907,City Hotel,2016-03-09,2.0,20.0,FRA,Offline TA/TO,TA/TO,Transient,0,0,0,
 BK304423,Resort Hotel,2017-02-04,2.0,29.0,CHN,Online TA,TA/TO,Transient-Party,0,0,0,242.0,,0,Check-Out,2017-02-06,148.2,False,False,False,False,False,False,False
 BK309587,City Hotel,2016-09-29,1.0,209.0,AUS,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-03-15,445.4,False,False,False,False,False,False,False
 BK323701,City Hotel,2016-04-17,2.0,38.0,USA,Online TA,TA/TO,Transient,0,0,0,7.0,,0,Check-Out,2016-04-20,204.42,False,False,False,False,False,False,False
-BK304390,City Hotel,2016-11-24,2.0,21.0,BRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-11-25,88.0,False,False,False,False,False,False,False
+BK304390,City Hotel,2016-11-24,2.0,21.0,BRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-11-25,88.0,False,False,False,False,False,False,True
 BK307163,City Hotel,2017-05-16,2.0,394.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,229.0,,0,Canceled,2017-05-04,90.0,False,False,False,False,False,False,False
 BK322296,City Hotel,2016-10-05,2.0,51.0,ITA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-08-23,216.0,False,False,False,False,False,False,False
 BK323506,Resort Hotel,2017-07-30,2.0,115.0,AUS,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2017-08-01,418.0,False,False,False,False,False,False,False
@@ -22930,7 +22930,7 @@ BK314550,Resort Hotel,2016-07-07,2.0,0.0,PRT,Direct,Direct,Transient,0,0,0,,,0,C
 BK311881,City Hotel,2016-03-24,2.0,37.0,ESP,Online TA,TA/TO,Transient-Party,0,0,0,9.0,,0,Check-Out,2016-03-26,270.9,False,False,False,False,False,False,False
 BK300323,City Hotel,2017-05-01,2.0,96.0,FRA,Offline TA/TO,TA/TO,Transient,0,0,0,52.0,,0,Check-Out,2017-05-05,356.4,False,False,False,False,False,False,False
 BK302619,City Hotel,2017-06-12,1.0,13.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,No-Show,2017-06-12,450.0,False,False,False,False,False,False,False
-BK307838,Resort Hotel,2015-08-27,2.0,10.0,GBR,Direct,Direct,Transient,0,0,0,250.0,,0,Canceled,2015-09-03,1091.02,False,False,False,False,False,False,False
+BK307838,Resort Hotel,2015-08-27,2.0,10.0,GBR,Direct,Direct,Transient,0,0,0,250.0,,0,Canceled,2015-09-03,1091.02,False,False,False,False,False,False,True
 BK316469,City Hotel,2016-08-19,2.0,0.0,ESP,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-08-21,296.0,False,False,False,False,False,False,False
 BK307120,City Hotel,2017-03-28,2.0,120.0,CN,Direct,Direct,Transient,0,0,0,14.0,,0,Canceled,2016-12-16,,False,False,False,True,False,False,False
 BK322023,City Hotel,2015-10-12,2.0,360.0,PRT,Groups,TA/TO,Contract,0,1,0,1.0,,0,Canceled,2015-01-01,124.0,False,False,False,False,False,False,False
@@ -23087,7 +23087,7 @@ BK302205,City Hotel,2017-03-19,2.0,104.0,FRA,Offline TA/TO,TA/TO,Transient-Party
 BK313393,City Hotel,2015-12-03,2.0,6.0,SGP,Offline TA/TO,TA/TO,Transient-Party,0,0,0,151.0,,0,Check-Out,2015-12-05,110.0,False,False,False,False,False,False,False
 BK312527,City Hotel,2016-11-07,2.0,277.0,PRT,Groups,TA/TO,Transient,0,0,0,,,0,Canceled,2016-04-04,300.0,False,False,False,False,False,False,False
 BK313468,City Hotel,2016-12-22,2.0,531.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0,Canceled,2015-10-21,125.6,False,False,False,False,False,False,False
-BK324643,City Hotel,2016-09-05,2.0,82.0,DEU,Offline TA/TO,TA/TO,Transient,0,0,0,16.0,,0,Canceled,2016-09-15,909.5,False,False,False,False,False,False,False
+BK324643,City Hotel,2016-09-05,2.0,82.0,DEU,Offline TA/TO,TA/TO,Transient,0,0,0,16.0,,0,Canceled,2016-09-15,909.5,False,False,False,False,False,False,True
 BK312299,City Hotel,2017-05-21,2.0,10.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2017-05-22,170.0,False,False,False,False,False,False,False
 BK307292,City Hotel,2017-06-01,2.0,174.0,PRT,Groups,TA/TO,Transient,0,0,0,1.0,,0,Canceled,2016-12-09,330.0,False,False,False,False,False,False,False
 BK305310,City Hotel,2016-05-25,2.0,8.0,TUR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-05-26,119.0,False,False,False,False,False,False,False
@@ -23127,7 +23127,7 @@ BK300288,City Hotel,2016-11-01,1.0,166.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0
 BK308650,Resort Hotel,2016-09-28,2.0,98.0,DEU,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Check-Out,2016-09-29,109.0,False,False,False,False,False,False,False
 BK312134,City Hotel,2016-09-29,2.0,287.0,DEU,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-02-14,401.2,False,False,False,False,False,False,False
 BK315321,City Hotel,2016-11-19,0.0,44.0,PRT,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-10-27,82.44,False,False,False,False,False,False,False
-BK311208,City Hotel,2016-02-06,2.0,48.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-02-07,80.3,False,False,False,False,False,False,False
+BK311208,City Hotel,2016-02-06,2.0,48.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-02-07,80.3,False,False,False,False,False,False,True
 BK320599,Resort Hotel,2016-04-10,2.0,0.0,PRT,Online TA,TA/TO,Transient,1,0,0,240.0,,0,Check-Out,2016-04-10,0.0,False,False,False,False,False,False,False
 BK311403,City Hotel,2016-09-16,1.0,31.0,DEU,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Check-Out,2016-09-19,210.0,False,False,False,False,False,False,False
 BK300068,City Hotel,2015-10-16,2.0,102.0,PRT,Offline TA/TO,TA/TO,Transient-Party,0,0,0,6.0,,0,Canceled,2015-07-06,203.0,False,False,False,False,False,False,False
@@ -23193,7 +23193,7 @@ BK317124,City Hotel,2016-03-27,2.0,1.0,PRT,Direct,Direct,Transient,0,0,0,,,0,Che
 BK300699,Resort Hotel,2016-08-23,2.0,59.0,ESP,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-07-31,567.0,False,False,False,False,False,False,False
 BK317615,City Hotel,2016-11-05,1.0,0.0,SWE,Direct,Direct,Transient,0,0,0,,,0,Check-Out,2016-11-08,450.0,False,False,False,False,False,False,False
 BK322365,City Hotel,2015-07-21,2.0,147.0,PRT,Groups,TA/TO,Transient,0,1,0,1.0,,0,Canceled,2015-07-10,150.0,False,False,False,False,False,False,False
-BK301353,Resort Hotel,2016-03-20,2.0,9.0,GBR,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-03-25,277.0,False,False,False,False,False,False,False
+BK301353,Resort Hotel,2016-03-20,2.0,9.0,GBR,Online TA,TA/TO,Transient,0,0,0,240.0,,0,Canceled,2016-03-25,277.0,False,False,False,False,False,False,True
 BK311009,City Hotel,2016-08-08,3.0,124.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-06-07,733.5,False,False,False,False,False,False,False
 BK308947,City Hotel,2016-08-05,2.0,94.0,CN,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-06-08,402.3,False,False,False,True,False,False,False
 BK312664,City Hotel,2016-10-23,2.0,115.0,FRA,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Check-Out,2016-10-26,296.1,False,False,False,False,False,False,False
@@ -23556,7 +23556,7 @@ BK302187,Resort Hotel,2017-03-09,2.0,86.0,PRT,Groups,TA/TO,Transient,0,0,0,67.0,
 BK316938,Resort Hotel,2017-06-28,1.0,7.0,PRT,Corporate,TA/TO,Transient-Party,0,0,0,,525.0,0,Check-Out,2017-06-30,240.0,False,False,False,False,False,False,False
 BK314284,City Hotel,2017-02-14,2.0,56.0,CHE,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-12-20,158.4,False,False,False,False,False,False,False
 BK323886,Resort Hotel,2017-02-13,2.0,2.0,PRT,Offline TA/TO,TA/TO,Transient,0,0,0,40.0,,0,No-Show,2017-02-13,355.95,False,False,False,False,False,False,False
-BK323621,City Hotel,2017-07-21,1.0,13.0,USA,Direct,Direct,Transient,0,0,0,14.0,,0,Canceled,2017-07-22,98.0,False,False,False,False,False,False,False
+BK323621,City Hotel,2017-07-21,1.0,13.0,USA,Direct,Direct,Transient,0,0,0,14.0,,0,Canceled,2017-07-22,98.0,False,False,False,False,False,False,True
 BK319468,City Hotel,2015-10-23,2.0,15.0,ROU,Offline TA/TO,TA/TO,Transient,0,0,0,27.0,,0,Check-Out,2015-10-27,,False,False,False,False,False,False,False
 BK303263,City Hotel,2016-12-08,1.0,227.0,GBR,Online TA,TA/TO,Transient,0,0,0,9.0,,0,Canceled,2016-06-15,218.7,False,False,False,False,False,False,False
 BK324264,Resort Hotel,2017-03-13,2.0,355.0,GBR,Offline TA/TO,TA/TO,Transient,0,0,0,8.0,,0,Check-Out,2017-03-17,136.8,False,False,False,False,False,False,False
