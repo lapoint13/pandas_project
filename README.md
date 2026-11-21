@@ -16,14 +16,18 @@ requirements.txt
 Project/
   ProjectPresentation.pdf          consegna del progetto
   data/
-    hotel_reservations_pms.xlsx    PMS grezzo (foglio "bookings"; il foglio "info" è il dizionario delle colonne)
-    hotel_bookings_crm.csv         CRM grezzo (separatore ";", virgola decimale)
+    raw/
+      hotel_reservations_pms.xlsx  PMS grezzo (foglio "bookings"; il foglio "info" è il dizionario delle colonne)
+      hotel_bookings_crm.csv       CRM grezzo (separatore ";", virgola decimale)
+    processed/
+      pms_clean.csv                PMS pulito, scritto da pms_cleaning.ipynb
+      crm_clean.csv                CRM pulito, scritto da crm_cleaning.ipynb
   cleaning/
-    pms_cleaning.ipynb             Fase A del PMS: Load, Assess, Clean
-    (notebook del CRM)             Fase A del CRM
+    pms_cleaning.ipynb             Fase A del PMS: Load, Assess, Clean, Export
+    crm_cleaning.ipynb             Fase A del CRM: Load, Assess, Clean, Export
 ```
 
-I dati grezzi in `data/` non si modificano mai: ogni notebook li legge e lavora su una copia.
+I file in `data/raw/` non si modificano mai: ogni notebook li legge, lavora su una copia e salva il risultato in `data/processed/`.
 
 ## Come si esegue
 
@@ -33,13 +37,13 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Poi si apre il notebook e si fa **Run All**. I notebook in `Project/cleaning/` leggono i dati con percorsi relativi alla propria cartella, ad esempio `pd.read_excel("../data/hotel_reservations_pms.xlsx", sheet_name="bookings")`.
+Poi si apre il notebook e si fa **Run All**. I notebook in `Project/cleaning/` leggono i dati con percorsi relativi alla propria cartella, ad esempio `pd.read_excel("../data/raw/hotel_reservations_pms.xlsx", sheet_name="bookings")`. Ordine: prima i due notebook di pulizia, poi il notebook del merge, che legge i file in `data/processed/`.
 
 ## Fasi
 
 - **Fase A.** Ogni file si pulisce da solo:
   - PMS: Jacopo, `pms_cleaning.ipynb`.
-  - CRM: il compagno di gruppo.
+  - CRM: il compagno di gruppo, `crm_cleaning.ipynb`.
 - **Fase B.** Merge dei due file sul codice di prenotazione (`booking_id` nel PMS, `BookingRef` nel CRM), poi controlli di coerenza, Describe e Analyse.
 
 ## Regole della pulizia (valgono per entrambi i file)
