@@ -30,6 +30,10 @@ Project/
     crm_cleaning.ipynb             Phase A of the CRM: Load, Assess, Clean, Export
   merge/
     merge.ipynb                    Phase B: Merge, checks between the files, recomputed values, Export
+  describe/
+    describe.ipynb                 Describe: profile and quality report of the final table (changes nothing)
+  analysis/
+    analysis.ipynb                 Analyse: 7 questions, findings and charts before & after (changes nothing)
 ```
 
 The files in `data/raw/` are never modified: each notebook reads them, works on a copy and saves the result in `data/processed/`.
@@ -44,7 +48,8 @@ pip install -r requirements.txt
 
 Tested with Python 3.12. Then open a notebook and use **Restart & Run All**: some cells create a flag and then change the values it marks, so a cell run a second time on its own resets its flag. Every notebook reads the data with paths relative to its own folder, for example `pd.read_excel("../data/raw/hotel_reservations_pms.xlsx", sheet_name="bookings")`. Order:
 1. `cleaning/pms_cleaning.ipynb` and `cleaning/crm_cleaning.ipynb` (any order);
-2. `merge/merge.ipynb`, which reads the two files in `data/processed/`.
+2. `merge/merge.ipynb`, which reads the two files in `data/processed/`;
+3. `describe/describe.ipynb` and `analysis/analysis.ipynb` (any order), which read `merged_clean.csv`. The analysis also reads the raw files, for the "before" of each chart.
 
 To work on the final table, read it with its dates:
 
@@ -58,7 +63,9 @@ df = pd.read_csv("../data/processed/merged_clean.csv",
 - **Phase A.** Each file is cleaned on its own:
   - PMS: Jacopo, `pms_cleaning.ipynb`.
   - CRM: Alessandro, `crm_cleaning.ipynb`.
-- **Phase B.** Merge of the two files on the booking code (`booking_id` in the PMS, `BookingRef` in the CRM), then consistency checks between the files and recomputed values: `merge.ipynb`. Describe and Analyse come next.
+- **Phase B.** Merge of the two files on the booking code (`booking_id` in the PMS, `BookingRef` in the CRM), then consistency checks between the files and recomputed values: `merge.ipynb`.
+- **Describe.** Profile and quality report of the final table: where the rows come from, missing values (structural or real gaps), main numbers and categories, and how many rows each cleaning step touched (88.1% of the bookings have no cleaning flag): `describe.ipynb`.
+- **Analyse.** Seven questions, each with a chart before and after the cleaning, a CHECK cell and the finding: price per night, cancellations, deposit type, lead time, market segments, months, special requests: `analysis.ipynb`. Key finding: the 2,924 `Non Refund` bookings are cancelled in 99.5% of cases, so every cancellation rate is also shown without them.
 
 ## Cleaning rules (for both files)
 
@@ -67,7 +74,7 @@ df = pd.read_csv("../data/processed/merged_clean.csv",
 3. **Before the merge, do no harm:** no step may damage the merge key or the shared columns, or delete information that the other file can recompute or check.
 4. **Before changing a value we create a flag column** (boolean) marking the rows touched, so original data can be told apart from modified or estimated data. Format fixes (spaces, case, spelling, units) keep the same information and get no flag. Some flags only mark rows to watch (e.g. `adr_zero`, `no_guests`) and change no value.
 5. **No invented data.** A fill that is not proven is called an ESTIMATE, and its row is marked by the flag.
-6. **Pandas functions seen in class where possible.** A few standard ones not shown in class are used where the course has no equivalent, e.g. `pd.to_timedelta` for date arithmetic, `rename`, `set_index` and `to_dict`.
+6. **Pandas functions seen in class where possible.** A few standard ones not shown in class are used where the course has no equivalent, e.g. `pd.to_timedelta` for date arithmetic, `rename`, `set_index` and `to_dict`. The analysis also uses `.plot` for the charts, `pd.cut` for the lead time classes and `str.zfill` for the month labels.
 
 ## Phase A result: PMS
 
