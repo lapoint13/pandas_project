@@ -1,6 +1,8 @@
 # Pandas project: hotel bookings (PMS + CRM)
 
-Project for the *Pandas & Data Manipulation* course (Master in AI & Entrepreneurship, Albert School).
+Project for the *Pandas & Data Manipulation* course (Master in AI & Entrepreneurship, Albert School), by Jacopo Saporetti and Alessandro Fioretti.
+
+The final presentation is `Project/Final_Presentation.pdf`.
 
 We start from two files on the same bookings of two hotels, exported by two different systems:
 - **PMS** (`hotel_reservations_pms.xlsx`), the hotel management system;
@@ -17,6 +19,7 @@ We started cleaning before the merge was explained in class. As agreed with the 
 requirements.txt
 Project/
   ProjectPresentation.pdf          project brief
+  Final_Presentation.pdf           our final presentation (12 slides)
   run_all.py                       runs the whole pipeline: the five notebooks below, in order
   data/
     raw/
@@ -42,6 +45,8 @@ The files in `data/raw/` are never modified: each notebook reads them, works on 
 ## How to run
 
 ```
+git clone https://github.com/lapoint13/pandas_project.git
+cd pandas_project
 python -m venv .venv
 .venv\Scripts\activate           # on Mac/Linux: source .venv/bin/activate
 pip install -r requirements.txt
