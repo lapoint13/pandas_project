@@ -17,6 +17,7 @@ We started cleaning before the merge was explained in class. As agreed with the 
 requirements.txt
 Project/
   ProjectPresentation.pdf          project brief
+  run_all.py                       runs the whole pipeline: the five notebooks below, in order
   data/
     raw/
       hotel_reservations_pms.xlsx  raw PMS (sheet "bookings"; the sheet "info" is the column dictionary)
@@ -46,7 +47,9 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Tested with Python 3.12. Then open a notebook and use **Restart & Run All**: some cells create a flag and then change the values it marks, so a cell run a second time on its own resets its flag. Every notebook reads the data with paths relative to its own folder, for example `pd.read_excel("../data/raw/hotel_reservations_pms.xlsx", sheet_name="bookings")`. Order:
+Tested with Python 3.12. To run the whole pipeline in one go, from raw files to clean tables, use `cd Project` and then `python run_all.py` (about 10 seconds; add `--verbose` to see every notebook's output). It runs the five notebooks below in order, each in its own folder and with a fresh state, without modifying them.
+
+To run one step at a time, open a notebook and use **Restart & Run All**: some cells create a flag and then change the values it marks, so a cell run a second time on its own resets its flag. Every notebook reads the data with paths relative to its own folder, for example `pd.read_excel("../data/raw/hotel_reservations_pms.xlsx", sheet_name="bookings")`. Order:
 1. `cleaning/pms_cleaning.ipynb` and `cleaning/crm_cleaning.ipynb` (any order);
 2. `merge/merge.ipynb`, which reads the two files in `data/processed/`;
 3. `describe/describe.ipynb` and `analysis/analysis.ipynb` (any order), which read `merged_clean.csv`. The analysis also reads the raw files, for the "before" of each chart.
@@ -162,11 +165,3 @@ Known limits:
 - **Repeated status dates.** The 151 rows on 2015-01-01 are one block of cancelled Groups bookings, all booked on the same day: not a code for "unknown". Other frequent dates are days with many cancellations, not always one block (2015-10-21: 280 of 298 cancelled, booked on 16 different days).
 - **Bookings identical except the code.** 87 rows are equal to an earlier row in every column except `booking_id` (169 rows in groups of 2-3). Almost all are cancelled Groups or Offline TA/TO bookings: most likely group blocks, so they are kept (`merge.ipynb`, 7.4).
 - **CRM prices that could not be tested.** The 6.1 check needs the PMS adr and nights. The 177 `adr_from_crm` prices (about 2 inflated, ESTIMATE) and the prices of the 729 CRM-only rows that have one (about 9, ESTIMATE) could not be tested.
-
-## How we collaborate (also for AI assistants)
-
-- The cleaning notebooks go in `Project/cleaning/`. Each person owns their notebook: changes to the other person's notebook are agreed first.
-- Never use `git push --force`. Run `git pull` before working.
-- `personale/` and `DataManipulation-AlbertSchool/` are in `.gitignore`: personal and course material, not part of the repo.
-- Commit messages are in Italian, in the passive form (e.g. "Aggiunta la pulizia del CRM").
-- Every cleaning decision is taken by the owner of the notebook. An AI assistant proposes options with numbers, but does not decide for them.
